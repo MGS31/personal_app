@@ -1,14 +1,16 @@
 import React from 'react';
-import About from './About';
-import Contact from './Contact';
-import Project from './Project';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <div>
-      <About />
-      <Contact />
-      <Project />
+      <Link to="/Home">
+        <img src="/images/Logo.png" alt="Matt's Logo" />
+      </Link>
+      <Link to="/About">About</Link>
+      <Link to="/Project">Projects</Link>
+      <Link to="/Experience">Experience</Link>
+      <Link to="/Contact">Contact</Link>
     </div>
   );
 };
