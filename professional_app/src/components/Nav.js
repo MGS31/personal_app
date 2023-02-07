@@ -6,19 +6,11 @@ import Project from './Project';
 const Nav = () => {
   return (
     <div>
-      <ul>
-        <li>
-        <About />
-        </li>
-        <li>
-         <Contact />
-        </li>
-        <li>
-         <Project />
-        </li>
-      </ul>
+      <About />
+      <Contact />
+      <Project />
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
