@@ -3,23 +3,27 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    height: 35px;
-    width: 100%;
+    right: 0;
+    height: 100%;
     justify-content: space-between;
-    background-color: #800000;
+    flex-direction: row;
+    align-items: center;
   }
 
   .go-home {
-    padding-top: 10px;
-    padding-left: 15px;
+    position: fixed;
+    padding-top: 5px;
+    padding-left: 5px;
+    left: 0;
+    top: 0;
   }
-
+  
   .links {
-    padding-top: 10px;
-    padding-right: 5px;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    padding-right: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
   }
 
   
