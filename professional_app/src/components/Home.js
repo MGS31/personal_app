@@ -1,11 +1,16 @@
 import React from 'react';
-import Nav from './Nav';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
-      <Nav />
-    </div>
+    <>
+      <div>
+        <p>Hello World! My Name is Matt Stankovich</p>
+        <Link to={'https://github.com/MGS31'} target="_blank">
+          <button>Check out my GitHub</button>
+        </Link>
+      </div>
+    </>
   );
 };
 
