@@ -1,0 +1,25 @@
+  .nav {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 35px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #800000;
+  }
+
+  .go-home {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .links {
+    padding-top: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  
