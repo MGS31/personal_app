@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Project from './components/Project';
 import About from './components/About';
+import Nav from './components/Nav';
 
 import './styles/App.scss';
 
@@ -11,6 +12,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <div>
+          <Nav />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           {/* Nav Routes */}
